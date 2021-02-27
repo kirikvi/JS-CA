@@ -1,0 +1,120 @@
+body {
+    background-color:#FEFBF7;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.item-container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background-color: #fefefe;
+    box-shadow: -2px 6px 6px rgba(0, 0, 0, 0.2), 2px 6px 6px rgba(0, 0, 0, 0.23);
+    max-width: 280px;
+}
+
+.item-container:hover{
+    box-shadow: -5px 8px 8px rgba(0, 0, 0, 0.2), 5px 8px 8px rgba(14, 3, 3, 0.23);
+    background-color: #FCD169;
+}
+
+.item-container h2 {
+    font-size: 1.8rem;
+}
+
+.item-container p,
+.item-container h2 {
+    padding: 10px;
+}
+
+.item-container .thumbnail {
+    width: 280px;
+    border-radius: 5px 5px 0 0;
+}
+
+.link-container {
+    padding: 30px;
+    margin: -10px -20px;
+    background-color: #fefefe;
+    border: solid 3px #FCD169;
+}
+
+.detail-container {
+    width: 80%;
+    margin: auto;
+}
+
+.detail-container .thumbnail {
+    float: right;
+    max-width: 400px;
+    border-radius: 25px;
+}
+
+.contact-link,
+.home-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    padding: 3rem;
+    text-align: center;
+    margin: auto;
+}
+
+.confirmation {
+    display: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #288D25;
+    padding-top: 20px;
+}
+
+#contact-form {
+    background-color: #F8F0D9;
+    box-shadow: -2px 6px 6px rgba(0, 0, 0, 0.2), 2px 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.form-item {
+    margin: 20px;
+    padding: 1px;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+}
+
+button {
+    height: 50px;
+    margin: 25px;
+    width: 150px;
+    background-color: #FCD169;
+}
+
+#address-error, 
+#name-error,
+#subject-error,
+#email-error {
+    color: red;
+    display: none;
+}
+

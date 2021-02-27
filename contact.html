@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - CA</title>
+    <meta name="description" content="Contact page - CA">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="link-container">
+        <a class="home-link" href="index.html">Home</a>
+        <a class="contact-link" href="contact.html">Contact</a>
+    </div>
+    <p class="confirmation">Your form was submitted</p>
+    <div id="contact-form">
+        <form>
+            <h1>Contact form</h1>
+            <div class="form-item">
+                <p>Name</p>
+                <input name="name" id="name" placeholder="Name"/>
+                <p id="name-error">Required</p>
+            </div>
+            <div class="form-item">
+                <p>Subject</p>
+                <input name="subject" id="subject" placeholder="Subject"/>
+                <p id="subject-error">Must have a value with a minimum length of 10 characters</p>
+            </div>
+            <div class="form-item">
+                <p>Email</p>
+                <input name="email" id="email" placeholder="Email"/>
+                <p id="email-error">Not a valid email address</p>
+            </div>
+            <div class="form-item">
+                <p>Address</p>
+                <input name="address" id="address" placeholder="Address"/>
+                <p id="address-error">Must have a value with a minimum length of 25 characters</p>
+            </div>
+            
+            <button>Submit</button>
+        </form>
+    </div>
+    
+    <script src="js/contact.js"></script>
+</body>
+</html>
